@@ -1,0 +1,32 @@
+.thumbnail {
+  height: 240px;
+  overflow: hidden;
+}
+.thumbnail img {
+  max-height: 45px;
+}
+.thumbnail .paragraph {
+  font-size: 5px;
+  line-height: 7px;
+}
+
+.testimonial-navigation {
+	margin-top: 40px;
+	border-radius: 3px;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,.1);
+	min-height: 80px;
+  line-height: 40px; /* <-- this is what you must define */
+  vertical-align: middle;
+  text-align: center;
+  font-size: 22px;
+}
+
+.testimonial-navigation a {
+  text-decoration: none;
+}
+
+/* .chat li { background: green; } */
+.chat li:nth-child(odd) { background: #eee; }
+.chat { list-style-type: none; padding:0; }
+
