@@ -46,12 +46,12 @@ export default class HomePage extends React.Component {
           <div className="iphoneipad">
             <div className="iphone">
               <div className="mask">
-                <img className="mask-img" src="https://dl.dropboxusercontent.com/u/25751237/Sites/URMC/IMG_3930.jpg" />
+                <img className="mask-img" src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/events/airbnb2016_1.jpg" />
               </div>
             </div>
             <div className="ipad">
               <div className="mask">
-                <img className="mask-img" src="https://dl.dropboxusercontent.com/u/25751237/Sites/URMC/tumblr_ogfzfc2HIF1vizqhdo1_1280.jpg" />
+                <img className="mask-img" src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/events/tapia.jpg" />
               </div>
             </div>
           </div>
@@ -111,11 +111,11 @@ Recruiting events and company-sponsored tech talks are an opportunity for minori
         </div>
         <div className="container-lrg">
           <div className="logos flex">
-            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://dl.dropboxusercontent.com/u/25751237/img/urmc/sponsors/google.png" /></div>
-            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://dl.dropboxusercontent.com/u/25751237/img/urmc/sponsors/palantir.png" /></div>
-            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://dl.dropboxusercontent.com/u/25751237/img/urmc/sponsors/microsoft.png" /></div>
-            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://dl.dropboxusercontent.com/u/25751237/img/urmc/sponsors/capitalone.png" /></div>
-            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://dl.dropboxusercontent.com/u/25751237/img/urmc/sponsors/airbnb.png" /></div>
+            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/sponsors/google.png" /></div>
+            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/sponsors/palantir.png" /></div>
+            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/sponsors/microsoft.png" /></div>
+            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/sponsors/capitalone.png" /></div>
+            <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/sponsors/airbnb.png" /></div>
             <div className="col-4" style={{textAlign:'center'}}><img style={{height:'auto'}} src="http://logonoid.com/images/cornell-university-logo.png" /></div>
           </div>
         </div>
