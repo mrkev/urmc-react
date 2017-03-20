@@ -13,21 +13,11 @@ export default class Header extends React.Component {
           </div>
           <div>
             {!!this.props.Pages &&
-            this.props.Pages.map((page, i) =>
-            <a className="nav-link" href={page.URL} key={i}>
-              {page.Label}
-            </a>
+              this.props.Pages.map((page, i) =>
+              <a className="nav-link" href={page.URL} key={i}>
+                {page.Label}
+              </a>
             )}
-
-            {!!this.props.AskEnabled &&
-            <a className="nav-link" href="/ask">
-              Ask
-            </a>}
-
-            {!!this.props.SubmissionsEnabled &&
-            <a className="nav-link" href="/submit">
-              {this.props.SubmitLabel}
-            </a>}
 
             <a className="nav-link" href="https://www.facebook.com/groups/cornellurmc/">
               Facebook

@@ -22,7 +22,7 @@ export default class HomePage extends React.Component {
           <div className="ctas">
             <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST">
               <input className="ctas-input" type="text" placeholder="Your Email Address" name="email"/>
-              <button className="ctas-button">
+              <button className="ctas-button" style={({cursor: 'pointer'})}>
                 Sign Up
               </button>
 

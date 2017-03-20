@@ -1,65 +1,15 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "react-blank@git+https://github.com/mrkev/react-blank.git",
-        "scope": null,
-        "escapedName": "react-blank",
-        "name": "react-blank",
-        "rawSpec": "git+https://github.com/mrkev/react-blank.git",
-        "spec": "git+https://github.com/mrkev/react-blank.git",
-        "type": "hosted",
-        "hosted": {
-          "type": "github",
-          "ssh": "git@github.com:mrkev/react-blank.git",
-          "sshUrl": "git+ssh://git@github.com/mrkev/react-blank.git",
-          "httpsUrl": "git+https://github.com/mrkev/react-blank.git",
-          "gitUrl": "git://github.com/mrkev/react-blank.git",
-          "shortcut": "github:mrkev/react-blank",
-          "directUrl": "https://raw.githubusercontent.com/mrkev/react-blank/master/package.json"
-        }
-      },
-      "/Users/Kevin/Desktop/play2/spur"
-    ]
-  ],
-  "_from": "git+https://github.com/mrkev/react-blank.git",
-  "_id": "react-blank@1.0.0",
-  "_inCache": true,
-  "_location": "/react-blank",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "react-blank@git+https://github.com/mrkev/react-blank.git",
-    "scope": null,
-    "escapedName": "react-blank",
-    "name": "react-blank",
-    "rawSpec": "git+https://github.com/mrkev/react-blank.git",
-    "spec": "git+https://github.com/mrkev/react-blank.git",
-    "type": "hosted",
-    "hosted": {
-      "type": "github",
-      "ssh": "git@github.com:mrkev/react-blank.git",
-      "sshUrl": "git+ssh://git@github.com/mrkev/react-blank.git",
-      "httpsUrl": "git+https://github.com/mrkev/react-blank.git",
-      "gitUrl": "git://github.com/mrkev/react-blank.git",
-      "shortcut": "github:mrkev/react-blank",
-      "directUrl": "https://raw.githubusercontent.com/mrkev/react-blank/master/package.json"
-    }
+  "name": "urmc-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blog.jsx",
+  "devDependencies": {
+    "progress-bar-webpack-plugin": "^1.9.3"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/mrkev/react-blank.git#4d430e6fa2e03ef9f4193ec23a00c52ed7092ad5",
-  "_shasum": "b37cec67c4d793d1ec1956fcc32eade768bd68c0",
-  "_shrinkwrap": null,
-  "_spec": "react-blank@git+https://github.com/mrkev/react-blank.git",
-  "_where": "/Users/Kevin/Desktop/play2/spur",
-  "author": {
-    "name": "Kevin Chavez",
-    "email": "keh222@cornell.edu"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/mrkev/react-feather/issues"
-  },
+  "author": "Kevin Chavez <keh222@cornell.edu> (http://thatkevin.tk)",
   "dependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^7.1.0",
@@ -79,25 +29,5 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
   },
-  "description": "_by [eric hu](http://erichu.tumblr.com), react edit by [kevin chavez](http://shoesnosocks.tumblr.com)_",
-  "devDependencies": {},
-  "gitHead": "4d430e6fa2e03ef9f4193ec23a00c52ed7092ad5",
-  "homepage": "https://github.com/mrkev/react-feather#readme",
-  "license": "ISC",
-  "main": "blog.jsx",
-  "name": "react-blank",
-  "optionalDependencies": {},
-  "readme": "## react-feather ![NPM version](https://img.shields.io/npm/v/react-feather.svg?style=flat)\n\n_by [eric hu](http://erichu.tumblr.com), react edit by [kevin chavez](http://shoesnosocks.tumblr.com)_\n\n### Installation\n```bash\n$ npm install react-feather\n```\n\n### Example\n```js\nvar reactFeather = require('react-feather');\n```\n\n### API\ncheck this file: `blog.jsx`\n\n### Contributing\n- Fork this Repo first\n- Clone your Repo\n- Install dependencies by `$ npm install`\n- Checkout a feature branch\n- Feel free to add your features\n- Make sure your features are fully tested\n- Publish your local branch, Open a pull request\n- Enjoy hacking <3\n\n### ISC license\nCopyright (c) 2017 Kevin Chavez &lt;keh222@cornell.edu&gt;\n\n\n\n---\n![docor]()\nbuilt upon love by [docor](git+https://github.com/turingou/docor.git) v0.3.0\n",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrkev/react-feather.git"
-  },
-  "scripts": {
-    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
-    "lint": "eslint .",
-    "start": "http-server",
-    "webpack": "webpack"
-  },
-  "version": "1.0.0"
+  "license": "ISC"
 }
