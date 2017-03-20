@@ -46,12 +46,12 @@ export default class HomePage extends React.Component {
           <div className="iphoneipad">
             <div className="iphone">
               <div className="mask">
-                <img className="mask-img" src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/events/airbnb2016_1.jpg" />
+                <img className="mask-img" src="https://raw.githubusercontent.com/mrkev/urmc-react/master/img/events/airbnb2016_1.jpg" />
               </div>
             </div>
             <div className="ipad">
               <div className="mask">
-                <img className="mask-img" src="https://gitcdn.xyz/repo/mrkev/urmc-react/master/img/events/tapia.jpg" />
+                <img className="mask-img" src="https://raw.githubusercontent.com/mrkev/urmc-react/master/img/events/tapia.jpg" />
               </div>
             </div>
           </div>
